@@ -1,0 +1,53 @@
+$backgroundColor: #246E89;
+$primaryColor: #EEE6D1;
+$secondaryColor: #BAE7E0;
+
+  .container { 
+  display: grid;
+  grid-template-areas: "editor" 
+                       "preview";
+  background-color: $backgroundColor;
+  text-align: center;                
+  }
+  
+.container-text{
+  border: none;
+  background-color: $backgroundColor;
+  grid-area: editor;
+  display: inline-block;
+  
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+  #editor {
+  
+  background-color: $primaryColor;
+  
+  width: 500px;
+  height: 400px;
+  border-style: solid;
+  border: 2px;
+  padding: 30px;
+  }
+.container-preview{
+  background-color: $backgroundColor;
+  
+  grid-area: preview;
+}
+  #preview { 
+  
+   display: inline-block;
+  margin-bottom: 40px;
+  background-color: #BAE7E0;
+  width: 500px;
+  height: 400px;
+  }
+
+  
+  
+  
+  
+  
+  
+
